@@ -8,7 +8,7 @@ body {
 
 input {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     padding: 7px;
     outline: 0;
     border: 0;
@@ -45,7 +45,7 @@ strong {
 
 figcaption {
     line-height: 25px;
-    font-size: 14px;
+    font-size: 0.875rem;
     width: 200px;
 }
 
@@ -66,14 +66,14 @@ header {
 
 header h1 {
     margin: 0 0 0 0;
-    font-size: 55px;
+    font-size: 3.4375rem;
     color: #e56038;
     font-family: 'Baumans', cursive;
 }
 
 header p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: #4a463b;
     margin-left: 132px;
 }
@@ -135,7 +135,7 @@ nav ul li a:hover {
 /* headings and paragraphs*/
 #slider_content1 h3, #slider_content2 h3, #slider_content3 h3 {
     color: #ebe8de;
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: bold;
     margin-bottom: 10px;
     background-color: #333;
@@ -175,7 +175,7 @@ nav ul li a:hover {
     background-color: #e56038;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 #spacer p {
@@ -206,12 +206,12 @@ nav ul li a:hover {
     float: left;
     width: 250px;
     margin-right: 45px;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 #boxcontent article h3 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 10px;
     margin-left: 75px;
 }
@@ -236,7 +236,7 @@ nav ul li a:hover {
 }
 
 #four_columns h2, #text_columns h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
     border-bottom: 1px solid #d6d0c1;
     padding: 20px 0;
     margin-bottom: 20px;
@@ -277,7 +277,7 @@ nav ul li a:hover {
 
 #text_columns article.column1, #text_columns .column2 {
     margin: 70px auto;
-    font-size: 14px;
+    font-size: 0.875rem;
     float: left;
     width: 450px;
 }
@@ -362,7 +362,7 @@ footer .wrapper {
     padding-top: 30px;
     width: auto;
     max-width: 900px;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 footer .wrapper .column {
@@ -386,26 +386,26 @@ footer.wrapper .column.midlist ul li a:hover {
 }
 
 footer .wrapper .column.rightlist ul li{
-    width:auto;
-    margin-bottom:15px;
+    width: auto;
+    margin-bottom: 15px;
 }
 
 footer .wrapper .column.rightlist ul li a span {
     margin-left:95px;
-    display:block;
+    display: block;
 }
 
 footer .wrapper .column.rightlist ul li a img {
     transition: border .25s ease;
-    float:left;
-    border:3px solid #444444;
+    float: left;
+    border: 3px solid #444444;
 }
 
 footer .wrapper .column.rightlist ul li a img:hover {
     border-color: #5e5e5e;}
 
 footer .wrapper .column h4 {
-    font-size: 16px;
+    font-size: 1rem;
     color: #fff;
     border-bottom: 1px solid #444444;
     padding: 0 0 10px 0;
@@ -414,34 +414,34 @@ footer .wrapper .column h4 {
 
 #copyright {
     background: #1D1D1D;
-    height:70px;
-    position:absolute;
-    bottom:0;
-    left:0;
-    width:100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 #copyright .wrapper {
     font-family: 'Open Sans', sans-serif;
-    padding-top:25px;
+    padding-top: 25px;
     color: #5e5e5e;
-    font-size:14px;
-    position:relative;
+    font-size: 0.876rem;
+    position: relative;
 }
 
 
 #copyright .wrapper .social {
-    position:absolute;
-    right:0;
-    top:25px;}
+    position: absolute;
+    right: 0;
+    top: 25px;}
 
 #copyright .wrapper .social a
 {
     transition: opacity .25s ease;
     opacity: 0.3;
     margin-left: 12px;
-    display:block;
-    float:left;
+    display: block;
+    float: left;
 }
 
 #copyright .wrapper .social a:hover
@@ -472,9 +472,7 @@ footer .wrapper .column h4 {
 /***************************** To make the layout responsive ***********************/
 /***************************** max-width = 1215 **************************************/
 
-#slider_content1 p .responsive_button,
-#slider_content2 p .responsive_button,
-#slider_content3 p .responsive_button {
+.responsive_button {
     display: none;
 }
 
@@ -486,19 +484,21 @@ footer .wrapper .column h4 {
 
 
     #slider_content1 h3, #slider_content2 h3, #slider_content3 h3 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     #slider_content1 p, #slider_content2 p, #slider_content3 p {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
-    #slider_content1 p .responsive_button,
-    #slider_content2 p .responsive_button,
-    #slider_content3 p .responsive_button {
+.responsive_button {
         display: inline;
         color: #000;
     }
+
+	.responsive_button:hover {
+		color: #e56038;
+	}
 
     .container .button {
         display: none;
@@ -518,7 +518,7 @@ footer .wrapper .column h4 {
     }
 
     #spacer {
-        font-size: 15px;
+        font-size: 0.9375rem;
     }
 
     #spacer .search {
@@ -532,7 +532,7 @@ footer .wrapper .column h4 {
 
     #input {
         padding: 4px;
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     input[type="submit"] {
@@ -549,26 +549,31 @@ footer .wrapper .column h4 {
 
     #text_columns article.column1, #text_columns .column2
     {
-        float:none;
+        float: none;
         max-width: 500px;
         margin: 50px auto 0 auto;}
 
     .column2 .row
     {
-        float:none;
+        float: none;
         margin:0 0 40px 50px;}
 
     footer .wrapper .column
     {
-        font-size: 12px;
+        font-size: 0.75rem;
         width: 230px;}
 }
 
 /****************************** media query max-width: 835px **************************/
-@media (max-width: 835px)
-{
+@media (max-width: 835px) {
+
+	body > header {
+		margin-bottom: 0;
+		width: 90%;
+	}
     .container {
         top: -1500px;
+		height: 0; /* don't want to leave space for the slides container */
     }
 
     header {
@@ -579,7 +584,7 @@ footer .wrapper .column h4 {
         right: auto;
         bottom: auto;
         left: 50%;
-        top:100px;
+        top: 100px;
         margin-left: -184px;
     }
 
@@ -589,16 +594,16 @@ footer .wrapper .column h4 {
 
     #spacer p
     {
-        text-align:center;
-        position:static;
+        text-align: center;
+        position: static;
         margin: 0 auto;
-        padding:15px 0 7px 0;}
+        padding: 15px 0 7px 0;}
 
     #spacer .search
     {
-        text-align:center;
-        position:static;
-        margin: 0 auto;}
+        text-align: center;
+        position: static;
+        margin : 0 auto;}
 
     footer
     {
@@ -612,17 +617,23 @@ footer .wrapper .column h4 {
 
     footer .wrapper .column
     {
-        margin-top:30px;
-        float:none;
-        font-size: 14px;
+        margin-top: 30px;
+        float: none;
+        font-size: 0.875rem;
         width: auto;}
 
     footer .wrapper .social
     {
-        display:none;}}
+        display: none;}}
 
 /******************************* media query max-width 500px*/
 @media (max-width: 500px) {
+	html {
+		font-size: 87.5%
+	}
+	body > header {
+		width: 90%;
+	}
     header nav {
         display: none;
     }
@@ -635,10 +646,20 @@ footer .wrapper .column h4 {
         left: 50%;
     }
 
+	#boxcontent {
+		padding: 0;
+	}
+
     #four_columns {
-        width: auto;
-        max-width: 500px;
+        width: 90%;
+		max-width: 500px;
+		margin: 0 auto;
+		padding: 0;
     }
+
+	#text_columns h3 {
+		padding: 0;
+	}
 
     #four_columns .img-item {
         float: none;
@@ -650,4 +671,16 @@ footer .wrapper .column h4 {
         width: 100%;
     }
 
+	#text_columns article.column1, #text_columns .column2 {
+		margin-left: 10px;
+		margin-top: 30px;
+	}
+
+	.column2 .row {
+		margin-left: 10px;
+	}
+
+	footer .wrapper .column.rightlist ul li a span {
+		margin-left: 120px;
+	}
 }
