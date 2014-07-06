@@ -36,5 +36,3 @@ and search engine bots what is on a page which helps them to read only the parts
 Todo: 
 1. Use sass
 2. Minify files
-3. Use icons instead of images
-4. Change fonts to rems instead of px
